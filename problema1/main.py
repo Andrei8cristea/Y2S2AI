@@ -24,8 +24,8 @@ def flip(state, k):
 
 def a_star(start_state):
     start_state = tuple(start_state)
-    goal_state = tuple(x for x in range(len(start_state),0,-1))
-    #goal_state = (N, N-1, N-2, ... , 2, 1)
+    goal_state = tuple(x for x in range(1, len(start_state)+1,1))
+    #goal_state = (1,2,3, ... n-1, n)
 
     pq = []
     heapq.heappush(pq, (breakpoints(start_state), 0, start_state, []))
@@ -57,7 +57,7 @@ def a_star(start_state):
 
 def ida_star(start_state):
     start_state = tuple(start_state)
-    goal_state = tuple(x for x in range(len(start_state),0,-1))
+    goal_state = tuple(x for x in range(1, len(start_state)+1,1))
 
     def search(state, g, bound, path):
         #depth search limitata de bound
@@ -93,6 +93,6 @@ def ida_star(start_state):
 #######################################################
 # TESTARE
 
-start = (3, 1, 4, 2)
+start = (4,3,2,1,5)
 print(a_star(start))
 print(ida_star(start))
