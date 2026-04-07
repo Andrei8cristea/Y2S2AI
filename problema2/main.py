@@ -269,6 +269,5 @@ print(best_move(50, 63, depth=2))
 print("TEST 2 PROBLEMA 2:")
 print(best_move(10, 99, depth=2))
 
-
 print("TEST 3 PROBLEMA 2:")
 print(best_move(95, 10, depth=2))
