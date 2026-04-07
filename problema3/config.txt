@@ -1,0 +1,19 @@
+# Dimensiuni labirint
+N=21
+M=21
+
+# Energie inițială a jucătorului
+ENERGIE_INIT=100
+
+# Procent minim și maxim de pereți
+MIN_PERC_PERETI=0.20
+MAX_PERC_PERETI=0.40
+
+# Procent minim și maxim de pericole
+MIN_PERC_PERICOLE=0.05
+MAX_PERC_PERICOLE=0.15
+
+# Parametri GA
+POP_SIZE=30
+GENERATIONS=40
+MUTATION_RATE=0.05
