@@ -2,14 +2,14 @@
 N=21
 M=21
 
-# Energie inițială a jucătorului
+# Energie initiala a jucatorului
 ENERGIE_INIT=100
 
-# Procent minim și maxim de pereți
+# Procent minim si maxim de pereti
 MIN_PERC_PERETI=0.20
 MAX_PERC_PERETI=0.40
 
-# Procent minim și maxim de pericole
+# Procent minim si maxim de pericole
 MIN_PERC_PERICOLE=0.05
 MAX_PERC_PERICOLE=0.15
 
